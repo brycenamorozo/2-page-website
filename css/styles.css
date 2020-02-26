@@ -22,7 +22,9 @@ body {
 }
 
 #page {
-  margin-top: 400px;
+  margin-top: 10px;
+  margin-left: 350px;
+  font-size: 20px;
 }
 
 #cf {
@@ -49,10 +51,35 @@ body {
   opacity:0;
 }
 
-p {
- font-size: 20px;
+#a {
+ font-size: 24px;
  color: #FFFFFF;
  margin-top: 200px;
- margin-left: 280px;
+ margin-left: 200px;
 }
 
+#b {
+ color: #FFFFFF;
+ font-size: 18px;
+ margin-top: 160px;
+ margin-left: 350px;
+}
+
+#c {
+ color: #FFFFFF;
+ font-size: 18px;
+}
+
+#back {
+ font-size: 18px;
+ margin-top: 10px;
+ margin-left: 20px;
+}
+
+label {
+ color: #FFFFFF;
+}
+
+#color-box {
+  margin-left: 820px;
+}
