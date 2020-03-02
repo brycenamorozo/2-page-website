@@ -24,3 +24,8 @@ function updateAll(event) {
     p.style.color = event.target.value;
   });
 }
+
+function titlename() {
+  title = document.getElementById("inputa").value;
+  total.innerhtml = title;
+}

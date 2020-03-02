@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
-  background-color: #0047AB;
+  background-color: #2C3D55;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -21,7 +21,7 @@ body {
   color: #212121;
 }
 
-#page {
+#inputa {
   margin-top: 10px;
   margin-left: 350px;
   font-size: 20px;
@@ -54,21 +54,23 @@ body {
 #a {
  font-size: 24px;
  color: #FFFFFF;
- margin-top: 200px;
+ margin-top: 220px;
  margin-left: 200px;
 }
 
 #b {
  color: #FFFFFF;
  font-size: 18px;
- margin-top: 160px;
+ margin-top: 180px;
  margin-left: 350px;
 }
 
 #c {
  color: #FFFFFF;
  font-size: 18px;
-}
+ margin-top: 100px;
+ margin-left: 300px;
+ }
 
 #back {
  font-size: 18px;
@@ -81,5 +83,54 @@ label {
 }
 
 #color-box {
-  margin-left: 820px;
+ margin-left: 820px;
+}
+
+#inputb {
+ margin-left: 355px;
+ font-size: 20px;
+}
+
+#inputc {
+ margin-left: 355px;
+ font-size: 20px;
+}
+
+#d {
+ color: #FFFFFF;
+ font-size: 18px;
+ margin-left: 780px;
+}
+
+#e {
+ color: #FFFFFF;
+ font-size: 18px;
+ margin-left: 810px;
+}
+
+#linkone {
+ color: #5EC2B7
+}
+
+#linktwo {
+ color: #5EC2B7
+}
+
+#submita {
+ width: 80px;
+ height: 30px;
+ margin-left: 350px;
+ margin-top: 20px;
+}
+
+#submitb {
+ width: 80px;
+ height: 30px;
+ margin-left: 355px;
+}
+
+#submitc {
+ width: 80px;
+ height: 30px;
+ margin-left: 810px;
 }
