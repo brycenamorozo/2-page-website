@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<script src="js/main.js"></script>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <html>
   <head>
      <title>Build-a-page</title>
   </head>
-  
   <body>
      <div id="cf">
       <img class="bottom" src="https://colorlib.com/wp/wp-content/uploads/sites/2/image-banner-responsive-blank-website-template.jpg" width= "650" height ="400" />
@@ -13,7 +11,7 @@
     </div>
   
    <div id="box">
-     <h1 id="title">Make your own Webpage now!</h1>
+     <h1 id="t">Make your own Webpage now!</h1>
    </div>
         
    <p id="a">Looking for a simple webpage layout for inspiration when making your own website?</p>
@@ -23,35 +21,37 @@
     <form>
       <input id="inputa" type="text" name="fname" placeholder="Web Page Name"><br>
     </form>
+     <div>
       <button id="submita" onclick="titlename()">Submit</button>
-
+     </div>
    <div id="color-box">
-    <input type="color" id="back" name="back" value="#e66465">
-     <label for="back">choose a color</label>
+    <input type="color" id="backgroundColor" name="back" value="#e66465">
+     <label for="backgroundColor">choose a color</label>
    </div>
 
-  <p id="c">How many text boxes would you prefer? &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</p> 
+  <p id="c">Input a font color &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</p> 
   <p id="d">Add an image? (Paste image link)</p>
    
     <form>
-          <input id="inputb" type="text" name="textbox" placeholder="Amount"><br> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-          <input id="inputc" type="text" name="textbox" placeholder="Amount"><br>
+        <div id="color-box2">
+    <input type="color" id="colorWell" name="back" value="#e66465">
+     <label for="colorWell">choose a color</label>
+        </div> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+          <input id="inputb" type="text" name="textbox" placeholder="Image adress"><br>
     </form>
-  <button id="submitb" onclick="numtextbox()">Submit</button><br>
-  <button id="submitc" onclick="imagelink()">Submit</button><br><br><br><br>
+  <button id="submitb" onclick="imagelink()">Submit</button><br><br><br><br>
 
  <a id="linkone" style="font-size: 20px" href="">Here's your layout</a> <br><br>
- <a id="linktwo" style="font-size: 20px" href="">These are some I designed</a>
+ <a id="linktwo" style="font-size: 20px" target="_blank" href="https://brycenamorozo.github.io/hmtl-project-1/">This is one that I designed</a>
 
 <br><br><br><br><br><br><br>
 
-<h2 id="outputa"> Title Filler </h2>
+<h2 id="outputa"> Title Filler </h2><br>
+<textarea name="message" placeholder="body 1" rows="20" cols="70"></textarea><textarea id="inputbox2" name="message" placeholder="body 2" rows="20" cols="70"></textarea>
 
+<img src="outputb">
 
-
-
-
-
-
+<script src="js/main.js"></script>
 </body>
 </html>
+

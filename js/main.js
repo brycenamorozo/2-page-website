@@ -1,5 +1,16 @@
 var colorWell;
 var defaultColor = "#0000ff";
+let filler;
+let l;
+
+function titlename() {
+  filler = document.getElementById("inputa").value;
+  document.getElementById("outputa").innerHTML = filler;
+}
+
+function imagelink() {
+  l = document.getElementById("inputb").value;
+  document.getElementById("outputb").innerHTML = l;}
 
 window.addEventListener("load", startup, false);
 
@@ -12,20 +23,16 @@ function startup() {
 }
 
 function updateFirst(event) {
-  var p = document.querySelector("p");
+  var textarea = document.querySelector("textarea");
 
-  if (p) {
-    p.style.color = event.target.value;
+  if (textarea) {
+    textarea.style.color = event.target.value;
   }
 }
 
 function updateAll(event) {
-  document.querySelectorAll("p").forEach(function(p) {
-    p.style.color = event.target.value;
+  document.querySelectorAll("textarea").forEach(function(textarea) {
+    textarea.style.color = event.target.value;
   });
 }
 
-function titlename() {
-  title = document.getElementById("inputa").value;
-  total.innerhtml = title;
-}

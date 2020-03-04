@@ -15,9 +15,9 @@ body {
   box-shadow: 4px 5px 15px 5px rgba(0,0,0,0.8);
 }
 
-#title {
+#t {
   margin-left: 5px;
-  font-size: 40px;
+  font-size: 39px;
   color: #212121;
 }
 
@@ -69,7 +69,7 @@ body {
  color: #FFFFFF;
  font-size: 18px;
  margin-top: 100px;
- margin-left: 300px;
+ margin-left: 350px;
  }
 
 #back {
@@ -84,6 +84,10 @@ label {
 
 #color-box {
  margin-left: 820px;
+}
+
+#color-box2 {
+ margin-left: 330px;
 }
 
 #inputb {
@@ -126,11 +130,19 @@ label {
 #submitb {
  width: 80px;
  height: 30px;
- margin-left: 355px;
+ margin-left: 810px;
+ margin-top: 20px;
 }
 
-#submitc {
- width: 80px;
- height: 30px;
- margin-left: 810px;
+#outputa {
+  color: #FFFFFF;
+}
+
+textarea {
+  background-color: #2C3D55;
+  font-size: 16px;
+}
+
+#inputbox2 {
+  margin-left: 10px;
 }
